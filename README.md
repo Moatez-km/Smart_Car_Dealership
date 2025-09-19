@@ -36,11 +36,13 @@ Set up the Google Sheets Node: Connect your Google account, select the desired s
 
 Send a Request: Use Postman to send a POST request to your webhook URL with a JSON body containing the sales data. For example:
 
-JSON
+
 
 {
   "car_type": "SUV",
   "price": "$32,500",
   "buyer": "Jane Doe"
 }
+
+
 After sending the request, the workflow will automatically send a notification email and add a new row with "SUV," "$32,500," and "Jane Doe" to your Google Sheet.
