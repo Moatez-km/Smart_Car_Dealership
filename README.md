@@ -1,4 +1,5 @@
 Project Title: Smart Car Dealership 🚗
+
 This project is a straightforward automation workflow designed to streamline the process of logging car sales and notifying stakeholders in real time. It uses a webhook to listen for new sales data and then automatically sends an email notification and records the details in a Google Sheet.
 
 How It Works 🤖
